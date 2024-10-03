@@ -33,3 +33,19 @@ def in_range(number : int, minimum : int, maximum : int):
 
 in_range(1, 100, 1000)
 in_range(500, 100, 1000)
+
+# funkce vrátí největší číslo z a, b, c
+def max_number(a, b, c):
+    if a > b and a > c:
+        return a
+    if b > a and b > c:
+        return b
+    if c > a and c > b:
+        return c
+    
+m = max_number(1, 2, 3)
+print(m)
+m = max_number(100, 10, 1)
+print(m)
+m = max_number(1.1, 1.3, 1.2)
+print(m)
