@@ -66,5 +66,5 @@ if __name__ == "__main__":
 # Index  0  1,   2,   3 
 seznam = [1, 2 , 3, "čtyři"]
 
-mnozina = set((1,1,1,2,2,))
+mnozina = set((1,1,1,2,2))
 mnozina.add(5)
