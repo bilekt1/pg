@@ -45,11 +45,11 @@ def max_number(a, b, c):
         return c
     
 m = max_number(1, 2, 3)
-print(m)
+#print(m)
 m = max_number(100, 10, 1)
-print(m)
+#print(m)
 m = max_number(1.1, 1.3, 1.2)
-print(m)
+#print(m)
 
 """
 ===================================================
@@ -68,3 +68,20 @@ seznam = [1, 2 , 3, "čtyři"]
 
 mnozina = set((1,1,1,2,2))
 mnozina.add(5)
+
+
+import sys
+
+def main(soubor):
+    otevreny_soubor = open(soubor, "r")
+    for radek in otevreny_soubor:
+        casti = radek.split(",")
+        vek = int(casti[2])
+
+        if vek < 20:
+            print(radek)
+
+        if __name__ == "__main__":
+            main(sys.argv[1])
+
+
