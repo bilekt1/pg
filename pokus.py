@@ -4,6 +4,7 @@
 
 """
 ===================================================
+3. 10. 2024
 """
 
 def hello_world():
@@ -49,3 +50,21 @@ m = max_number(100, 10, 1)
 print(m)
 m = max_number(1.1, 1.3, 1.2)
 print(m)
+
+"""
+===================================================
+10. 10. 2024
+"""
+
+from pokus2 import porovnej
+
+if __name__ == "__main__":
+    b = input("Zadej jiné cislo: ")
+    b = int(b)
+    porovnej(10)
+    porovnej(100)
+# Index  0  1,   2,   3 
+seznam = [1, 2 , 3, "čtyři"]
+
+mnozina = set((1,1,1,2,2,))
+mnozina.add(5)
