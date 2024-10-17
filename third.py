@@ -60,3 +60,4 @@ if __name__ == "__main__":
     cislo = input("Zadej maximum: ")
     prvocisla = vrat_prvocisla(cislo)
     print(prvocisla)
+    
