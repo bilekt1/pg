@@ -29,6 +29,7 @@
 
     return binary'''
 
+
 def dec_to_bin(cislo):
     cislo = int(cislo)
     if cislo == 0:
