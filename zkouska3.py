@@ -30,6 +30,7 @@ class Circle(Shape):
 
         return math.pi * (self.radius ** 2) # obsah kruhu je (S = π * r²)
     
+    
 from unittest.mock import patch, MagicMock, mock_open
 
 # Pytest testy pro Příklad 3

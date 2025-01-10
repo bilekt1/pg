@@ -37,6 +37,7 @@ def convert_to_czk(amount, currency):
         
     raise ValueError(f"Měna {currency} nebyla nalezena.")
 
+
 # Pytest testy pro Příklad 3
 from unittest.mock import patch, MagicMock
 

@@ -9,6 +9,7 @@ def process_strings(slova):
 
     for slovo in slova: 
         if slovo == "STOP":  
+            
             break
 
         if len(slovo) > 3: 
